@@ -1,0 +1,17 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "u ovom projektu smo oziveli html css i java script i koristicemo eksterno povezivanje js fila kao i eksterno povezivanje CSS sa oficijanlog Tailwind CSS with \r script tag \"<script src=\"https://cdn.tailwindcss.com\"></script>\r so we can use his classes..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch ./database/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0",
+    "json-server": "^0.17.3"
+  }
+}
