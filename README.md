@@ -33,15 +33,16 @@ Now i  create db.json with some users like this:
         "role" : "Admin"
     },
     {
-        // 2nd user
+        2nd user
     }, 
     {
-        // 3d user
+        3d user
     },
 
 ]
 
-}```
+}
+```
 and so on..
 
 TO SIMPLIFY : We are going to pass this db.json to the json server so json server is going to create routes for this data
