@@ -2,9 +2,9 @@ In this small project I will use HTML, Tailwind Css, and JavaScript(externally c
 testing with CYPRESS framework by coding  which is compatible for JS and manually with POSTMAN.
 
 I will provide an importable postman file and u can find it in json type inside my folder "postman".
-U can open your Postman and import that file to see all my requests on local host,
-where I manually tested all data from local host using GET, PUT, POST, DELETE, PATCH requests like i did via cypress framework as u can see
-inside cypress/e2e folder.
+U can open your Postman and import the file to see all my requests on local host,
+where I manually tested all data from local host using GET, PUT, POST, DELETE, PATCH requests like i did via cypress framework. 
+(cypress/e2e folder)
 
 ## Getting started
 
@@ -33,10 +33,10 @@ Now i  create db.json with some users like this:
         "role" : "Admin"
     },
     {
-        2nd user
+        //2nd user
     }, 
     {
-        3d user
+        // 3d user
     },
 
 ]
@@ -45,7 +45,7 @@ Now i  create db.json with some users like this:
 ```
 and so on..
 
-TO SIMPLIFY : We are going to pass this db.json to the json server so json server is going to create routes for this data
+TO SIMPLIFY : We are going to pass this db.json to the json server so json server is going to create routes for this data.
 
 Lets start!
 
@@ -62,9 +62,9 @@ So we can use:
 
 Now open terminal and type "npm start" ..
 
-When ii have just set up a json server,i can acces my resources using "http://localhost:3000/user" as u can see inside my terminal.
+When i have just set up a json server,i can acces my resources using "http://localhost:3000/user" as u can see inside the terminal.
 We want to grab this data from this json server and iterate through objects(users)
 
-I Create script.js inside my json-server folder and create function for creating table data as u can see inside script.js file
+I Create script.js inside my json-server folder and create function for creating table data as u can see inside script.js file.
 
-Now i can fetch data from db.json ("name","email","profile","status" ,"role") to fill out users fields on our html page(JSON SERVER)(Employe,Status,Role)..
+Now i can fetch data from db.json ("name","email","profile","status" ,"role") to fill out users fields(Employe,Status,Role).. on our page.(production)
