@@ -17,14 +17,6 @@
       "role": "Backand PHP Developer"
     },
     {
-      "id": 3,
-      "name": "David Grbic",
-      "email": "david43@gmail.com",
-      "profile": "./david.jpeg",
-      "status": "Active",
-      "role": "Software engineer"
-    },
-    {
       "id": 4,
       "name": "Vukasin Terzic",
       "email": "vule1337@gmail.com",
@@ -39,6 +31,10 @@
       "status": "Active",
       "role": "Singer",
       "id": 5
+    },
+    {
+      "name": "David Grbic",
+      "id": 3
     }
   ]
 }

@@ -39,8 +39,8 @@ describe("Get Request", () => {
 
             expect(body[0]).has.property("name", "Dusan Pilipovic")
             expect(body[1]).has.property("name", "Djordje Kergetic")
-            expect(body[2]).has.property("name", "David Grbic")
-            expect(body[3]).has.property("name", "Vukasin Terzic")
+            expect(body[4]).has.property("name", "David Grbic")
+            expect(body[3]).has.property("name", "Mitar Miric")
 
             cy.log("user with id 3 have status", body[2].status)
             // expect(body[2]).has.property('status',"Active")   and so on...
