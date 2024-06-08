@@ -105,14 +105,14 @@
 					"raw": "    {\r\n        \"origin\": \"Postman\",\r\n        \"title\": \"example without id\",\r\n        \"author\": \"Stefan Sakovic\",\r\n        \"status\": \"available\",\r\n        \"purpose\":\"Updating\"\r\n\r\n    }"
 				},
 				"url": {
-					"raw": "http://localhost:3000/posts/6",
+					"raw": "http://localhost:3000/user/6",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
-						"posts",
+						"user",
 						"6"
 					],
 					"query": [
@@ -166,14 +166,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/posts/3",
+					"raw": "http://localhost:3000/user/3",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
-						"posts",
+						"user",
 						"3"
 					],
 					"query": [
