@@ -4,7 +4,7 @@
   "description": "u ovom projektu smo oziveli html css i java script i koristicemo eksterno povezivanje js fila kao i eksterno povezivanje CSS sa oficijanlog Tailwind CSS with \r script tag \"<script src=\"https://cdn.tailwindcss.com\"></script>\r so we can use his classes..",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "start": "json-server --watch ./database/db.json"
   },
   "keywords": [],

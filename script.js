@@ -1,5 +1,4 @@
-let td_fun = (name,email,status,role,img) => {
-
+let td_fun = (name, email, status, role, img) => {
     let td = document.createElement('tr');
     td.innerHTML = `<td class="px-6 py-4 whitespace-nowrap">
     
@@ -30,28 +29,22 @@ let td_fun = (name,email,status,role,img) => {
     <td class="px-6 py-4 whitespace-nowrap">
     <span class="text-sm text-gray-500">${role}</span>
     </td>`
-
     return td
-    
 }
 
 let tbody = document.getElementById("tbody")
 let tr = document.getElementsByClassName("user")
 
-fetch("http://localhost:3000/user").then(res=>
-res.json()).then(json=>
-    json.map(data=>
-        tbody.append(td_fun(data.name,data.email,data.status,data.role,data.profile))
-        
-        ))
-        
-        let active = () => {
-            
-    fetch("http://localhost:3000/user?status=Active").then(res=>
-res.json()).then(json=>
-    json.map(data=>
-        tbody.append(td_fun(data.name,data.email,data.status,data.role,data.profile))
-        
+fetch("http://localhost:3000/user").then(res =>
+    res.json()).then(json =>
+        json.map(data =>
+            tbody.append(td_fun(data.name, data.email, data.status, data.role, data.profile))
         ))
 
-        }
+let active = () => {
+    fetch("http://localhost:3000/user?status=Active").then(res =>
+        res.json()).then(json =>
+            json.map(data =>
+                tbody.append(td_fun(data.name, data.email, data.status, data.role, data.profile))
+            ))
+}
